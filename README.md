@@ -31,3 +31,11 @@ WHERE tx_type = 'CASH'
   AND amount < 10000
 GROUP BY account_id, DATE(tx_time)
 HAVING SUM(amount) > 20000;
+
+
+# 6. Dashboard (Visual = HUGE)
+
+```markdown
+## Dashboard
+
+![Dashboard](dashboard.png)
