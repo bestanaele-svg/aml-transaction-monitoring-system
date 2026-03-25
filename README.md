@@ -32,6 +32,34 @@ WHERE tx_type = 'CASH'
 GROUP BY account_id, DATE(tx_time)
 HAVING SUM(amount) > 20000;
 
-## Dashboard
+## SQL Concepts Demonstrated
 
-<img width="755" height="400" alt="image" src="https://github.com/user-attachments/assets/c2a00f11-f3c0-4384-8a9e-cc6dc80cb5b8" />
+- Relational schema design  
+- Primary & foreign keys  
+- Aggregations (SUM, COUNT, GROUP BY)  
+- HAVING for rule detection  
+- Subqueries (NOT EXISTS)  
+- CASE WHEN logic
+
+## Business Relevance
+
+This project demonstrates how financial institutions:
+- Detect suspicious activity  
+- Prioritize high-risk alerts  
+- Support investigation workflows
+
+## Tech Stack
+
+- SQL  
+- PostgreSQL  
+- Power BI
+
+## Full Documentation
+
+[View Full Project PDF](AML_Financial_Crime_Monitoring_System_Portfolio_pdf)
+
+## About Me
+
+AML professional with experience in transaction monitoring and QA, transitioning into AML technology and fintech.
+
+Interested in financial crime systems, risk analytics, and data-driven detection.
