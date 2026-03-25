@@ -33,7 +33,6 @@ GROUP BY account_id, DATE(tx_time)
 HAVING SUM(amount) > 20000;
 
 ## SQL Concepts Demonstrated 
-
 - Relational schema design  
 - Primary & foreign keys  
 - Aggregations (SUM, COUNT, GROUP BY)  
