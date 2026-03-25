@@ -12,10 +12,10 @@ This mirrors how real transaction monitoring systems operate in banking and fint
 
 ## Detection Logic
 
-### 🔴 Cash Structuring (AML)
+### Cash Structuring (AML)
 Detects multiple cash deposits under $10,000 that exceed $20,000 within a single day.
 
-### 🔵 Account Takeover (Fraud)
+### Account Takeover (Fraud)
 Flags large debit transactions from new/unrecognized devices.
 
 ## Sample Detection Query (AML Structuring)
@@ -41,7 +41,7 @@ HAVING SUM(amount) > 20000;
 - Subqueries (NOT EXISTS)  
 - CASE WHEN logic
 
-## 📊 Dashboard
+## Dashboard
 
 ![AML Dashboard](dashboard.png)
 
