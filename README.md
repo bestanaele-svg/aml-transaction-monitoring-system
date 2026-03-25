@@ -32,10 +32,6 @@ WHERE tx_type = 'CASH'
 GROUP BY account_id, DATE(tx_time)
 HAVING SUM(amount) > 20000;
 
-
-# 6. Dashboard (Visual = HUGE)
-
-```markdown
 ## Dashboard
 
-![Dashboard](dashboard.png)
+<img width="755" height="400" alt="image" src="https://github.com/user-attachments/assets/c2a00f11-f3c0-4384-8a9e-cc6dc80cb5b8" />
