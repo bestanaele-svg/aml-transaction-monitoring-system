@@ -32,7 +32,7 @@ WHERE tx_type = 'CASH'
 GROUP BY account_id, DATE(tx_time)
 HAVING SUM(amount) > 20000;
 
-## SQL Concepts Demonstrated
+## SQL Concepts Demonstrated 
 
 - Relational schema design  
 - Primary & foreign keys  
@@ -42,24 +42,19 @@ HAVING SUM(amount) > 20000;
 - CASE WHEN logic
 
 ## Business Relevance
-
 This project demonstrates how financial institutions:
 - Detect suspicious activity  
 - Prioritize high-risk alerts  
 - Support investigation workflows
 
 ## Tech Stack
-
 - SQL  
 - PostgreSQL  
 - Power BI
 
 ## Full Documentation
-
 [View Full Project PDF](AML_Financial_Crime_Monitoring_System_Portfolio_pdf)
 
 ## About Me
-
 AML professional with experience in transaction monitoring and QA, transitioning into AML technology and fintech.
-
 Interested in financial crime systems, risk analytics, and data-driven detection.
