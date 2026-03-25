@@ -57,7 +57,7 @@ This project demonstrates how financial institutions:
 - Power BI
 
 ## Full Documentation
-[View Full Project PDF](AML_Financial_Crime_Monitoring_System_v2_Portfolio_pdf)
+[View Full Project PDF](AML_Financial_Crime_Monitoring_System_Portfolio.pdf)
 
 ## About Me
 AML professional with experience in transaction monitoring and QA, transitioning into AML technology and fintech.
