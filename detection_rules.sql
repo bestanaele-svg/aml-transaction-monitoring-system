@@ -1,8 +1,10 @@
 -- Detection rules for AML and Fraud alert generation
--- This file contains SQL logic used to identify suspicious activity
--- and insert alerts into the alerts table.
 
--- Rule 1: Cash Structuring (AML)
+-- =========================
+-- AML RULES
+-- =========================
+
+-- Rule 1: Cash Structuring
 -- Detects multiple cash deposits under $10,000 that exceed $20,000 in one day
 
 INSERT INTO alerts (
@@ -29,7 +31,12 @@ WHERE tx_type = 'CASH'
 GROUP BY account_id, DATE(tx_time)
 HAVING SUM(amount) > 20000;
 
--- Rule 2: Account Takeover / New Device Large Debit (Fraud)
+
+-- =========================
+-- FRAUD RULES
+-- =========================
+
+-- Rule 2: Account Takeover / New Device Large Debit
 -- Flags large debit transactions from a device not previously seen on the account
 
 INSERT INTO alerts (
