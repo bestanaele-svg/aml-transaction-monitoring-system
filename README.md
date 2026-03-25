@@ -1,4 +1,4 @@
-# aml-transaction-monitoring-system
+# AML-Transaction-Monitoring-System
 SQL project simulating an AML &amp; fraud transaction monitoring system (alerts → cases workflow)
 
 ## Overview
@@ -31,6 +31,7 @@ WHERE tx_type = 'CASH'
   AND amount < 10000
 GROUP BY account_id, DATE(tx_time)
 HAVING SUM(amount) > 20000;
+```
 
 ## SQL Concepts Demonstrated 
 - Relational schema design  
