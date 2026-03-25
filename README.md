@@ -41,6 +41,10 @@ HAVING SUM(amount) > 20000;
 - Subqueries (NOT EXISTS)  
 - CASE WHEN logic
 
+## 📊 Dashboard
+
+![AML Dashboard](dashboard.png)
+
 ## Business Relevance
 This project demonstrates how financial institutions:
 - Detect suspicious activity  
