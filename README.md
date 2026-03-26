@@ -61,5 +61,5 @@ This project demonstrates how financial institutions:
 [View Full Project PDF](AML_Financial_Crime_Monitoring_System_Portfolio.pdf)
 
 ## About Me
-AML professional with experience in transaction monitoring and QA, transitioning into AML technology and fintech.
+AML professional with experience in transaction monitoring and quality assurance, transitioning into AML technology and fintech.
 Interested in financial crime systems, risk analytics, and data-driven detection.
