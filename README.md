@@ -55,6 +55,7 @@ This project demonstrates how financial institutions:
 - SQL  
 - PostgreSQL  
 - Power BI
+- GitHub
 
 ## Full Documentation
 [View Full Project PDF](AML_Financial_Crime_Monitoring_System_Portfolio.pdf)
