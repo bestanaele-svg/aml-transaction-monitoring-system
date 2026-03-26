@@ -31,7 +31,6 @@ WHERE tx_type = 'CASH'
 GROUP BY account_id, DATE(tx_time)
 HAVING SUM(amount) > 20000;
 
-
 -- =========================
 -- FRAUD RULES
 -- =========================
